@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+.our-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: bolder;
+    
+}
+.contant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 1880px;
+    text-align: center;
+}
+.container{
+  max-height: 80vh;
+}
+.container .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1880px;
+}
+
+
+
+.container .row .col{
+    max-width: 300px;
+    height: auto;
+    background-color: white;
+    box-shadow: 4px 0px 15px rgba(0,0,0,0.5);
+    padding:20px 25px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.container .row .col:hover{
+    background-image: linear-gradient(rgba(155, 124, 172, 0.65), rgba(55, 4, 69, 0.65)), url(Laptop\ Rental\ Singapore\ From\ $30_day.jpeg);
+    color: #fff;
+}
+
+
+
+
+.col i{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(234, 0, 255);
+    color: rgb(132, 0, 255);
+    transition: all 0.5s ease-in-out;
+}
